@@ -1,0 +1,14 @@
+[
+  {
+    "taxa_alvo": 1.0,
+    "enviados": 15,
+    "tempo_envio_s": 15.28,
+    "processados": 15,
+    "perdidos": 0,
+    "perda_pct": 0.0,
+    "agregados_sem_slm": 0,
+    "vazao_processamento_logs_s": 0.9,
+    "mitigacao_mediana_s": 0.965,
+    "motor": "ollama"
+  }
+]

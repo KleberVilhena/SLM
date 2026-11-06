@@ -1,0 +1,5 @@
+# Pasta mantida por compatibilidade. O modelo do agente agora é definido em
+# ../network-security-agent/Modelfile e registrado por 02_setup_model.sh.
+FROM qwen2.5:1.5b
+PARAMETER temperature 0
+PARAMETER num_ctx 2048

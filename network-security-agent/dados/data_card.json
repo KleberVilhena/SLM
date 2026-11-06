@@ -1,0 +1,74 @@
+{
+  "semente": 42,
+  "conjuntos": {
+    "treino": {
+      "pares": 3779,
+      "tipos_evento": {
+        "benigno": 1195,
+        "forca_bruta_ssh": 726,
+        "injecao_http": 557,
+        "varredura_web": 459,
+        "varredura_portas": 452,
+        "negacao_servico": 390
+      }
+    },
+    "validacao": {
+      "pares": 811,
+      "tipos_evento": {
+        "benigno": 231,
+        "forca_bruta_ssh": 165,
+        "injecao_http": 126,
+        "varredura_web": 110,
+        "negacao_servico": 76,
+        "varredura_portas": 103
+      }
+    },
+    "teste": {
+      "pares": 810,
+      "tipos_evento": {
+        "injecao_http": 99,
+        "benigno": 276,
+        "forca_bruta_ssh": 144,
+        "varredura_portas": 91,
+        "varredura_web": 117,
+        "negacao_servico": 83
+      }
+    },
+    "teste_nao_visto": {
+      "pares": 600,
+      "tipos_evento": {
+        "forca_bruta_ssh": 118,
+        "negacao_servico": 62,
+        "benigno": 202,
+        "varredura_web": 74,
+        "varredura_portas": 66,
+        "injecao_http": 78
+      }
+    },
+    "adversarial": {
+      "pares": 240,
+      "tipos_evento": {
+        "varredura_portas": 45,
+        "forca_bruta_ssh": 59,
+        "injecao_http": 46,
+        "benigno": 31,
+        "negacao_servico": 59
+      }
+    }
+  },
+  "excecoes_laboratorio": [
+    "10.0.0.1",
+    "10.0.0.10"
+  ],
+  "total_pares": 6240,
+  "tipos_de_evento": 6,
+  "diretivas_validas_pct": 100.0,
+  "mitre_attack": {
+    "forca_bruta_ssh": "T1110 Brute Force",
+    "varredura_portas": "T1046 Network Service Discovery",
+    "varredura_web": "T1595 Active Scanning",
+    "injecao_http": "T1190 Exploit Public-Facing Application",
+    "negacao_servico": "T1499 Endpoint Denial of Service",
+    "benigno": "nenhuma"
+  }
+}

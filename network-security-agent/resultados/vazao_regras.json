@@ -1,0 +1,38 @@
+[
+  {
+    "taxa_alvo": 10.0,
+    "enviados": 100,
+    "tempo_envio_s": 10.73,
+    "processados": 100,
+    "perdidos": 0,
+    "perda_pct": 0.0,
+    "agregados_sem_slm": 0,
+    "vazao_processamento_logs_s": 9.3,
+    "mitigacao_mediana_s": 0.003,
+    "motor": "regras"
+  },
+  {
+    "taxa_alvo": 100.0,
+    "enviados": 1000,
+    "tempo_envio_s": 10.75,
+    "processados": 1000,
+    "perdidos": 0,
+    "perda_pct": 0.0,
+    "agregados_sem_slm": 0,
+    "vazao_processamento_logs_s": 92.6,
+    "mitigacao_mediana_s": 0.002,
+    "motor": "regras"
+  },
+  {
+    "taxa_alvo": 1000.0,
+    "enviados": 10000,
+    "tempo_envio_s": 10.77,
+    "processados": 10000,
+    "perdidos": 0,
+    "perda_pct": 0.0,
+    "agregados_sem_slm": 8,
+    "vazao_processamento_logs_s": 908.2,
+    "mitigacao_mediana_s": 0.002,
+    "motor": "regras"
+  }
+]

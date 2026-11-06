@@ -1,0 +1,8 @@
+# SLM do agente: Qwen 2.5 com 1,5 bilhão de parâmetros, quantização Q4_K_M
+# Após o ajuste fino LoRA (treinar_lora.py), troque o FROM pelo GGUF exportado:
+# FROM ./qwen2.5-1.5b-security-lora-q4_k_m.gguf
+FROM qwen2.5:1.5b
+
+# O prompt de sistema e o esquema JSON são enviados pelo agente a cada chamada (slm.py)
+PARAMETER temperature 0
+PARAMETER num_ctx 2048

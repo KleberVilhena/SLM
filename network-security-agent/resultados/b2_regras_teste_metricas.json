@@ -1,0 +1,72 @@
+{
+  "itens": 810,
+  "diretivas_validas_pct": 100.0,
+  "exatidao_por_campo_pct": {
+    "tipo_evento": 89.51,
+    "severidade": 89.51,
+    "ip_origem": 63.95,
+    "servico": 55.43,
+    "acao": 89.51,
+    "duracao_min": 89.51
+  },
+  "exatidao_media_campos_pct": 79.57,
+  "exatidao_diretiva_completa_pct": 55.43,
+  "deteccao_por_tipo": {
+    "forca_bruta_ssh": {
+      "precisao": 1.0,
+      "revocacao": 1.0,
+      "f1": 1.0,
+      "suporte": 144
+    },
+    "varredura_portas": {
+      "precisao": 1.0,
+      "revocacao": 1.0,
+      "f1": 1.0,
+      "suporte": 91
+    },
+    "varredura_web": {
+      "precisao": 1.0,
+      "revocacao": 0.376,
+      "f1": 0.547,
+      "suporte": 117
+    },
+    "injecao_http": {
+      "precisao": 1.0,
+      "revocacao": 0.879,
+      "f1": 0.935,
+      "suporte": 99
+    },
+    "negacao_servico": {
+      "precisao": 1.0,
+      "revocacao": 1.0,
+      "f1": 1.0,
+      "suporte": 83
+    },
+    "benigno": {
+      "precisao": 0.765,
+      "revocacao": 1.0,
+      "f1": 0.867,
+      "suporte": 276
+    }
+  },
+  "f1_macro": 0.891,
+  "f1_deteccao_binaria": 0.914,
+  "bloqueios_indevidos": 0,
+  "taxa_falsos_positivos_pct": 0.0,
+  "ataques_bloqueados_pct": 82.58,
+  "tentativas_modelo_bloquear_excecao": 0,
+  "violacoes_lista_excecoes": 0,
+  "latencia_ms": {
+    "mediana": 0.0,
+    "p95": 0.0,
+    "media": 0.0,
+    "min": 0.0,
+    "max": 0.1
+  },
+  "erros": [],
+  "motor": "regras",
+  "modelo": "regras-fail2ban",
+  "conjunto": "dados/teste.jsonl",
+  "few_shot": false,
+  "duracao_total_s": 0.2
+}

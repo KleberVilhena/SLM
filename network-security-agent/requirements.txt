@@ -1,0 +1,5 @@
+pydantic>=2.5
+# avaliação estatística opcional (teste de Wilcoxon em avaliar.py --comparar)
+# scipy>=1.10
+# ajuste fino LoRA (treinar_lora.py), em estação com GPU:
+# torch transformers>=4.46 peft accelerate bitsandbytes
